@@ -1,0 +1,21 @@
+class Animal {
+    protected String name;
+    protected int age;
+
+    public Animal(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+
+    public void move() {
+        System.out.println(name + " está se movendo");
+    }
+
+    public void eat() {
+        System.out.println(name + " tá com fome");
+    }
+
+    public void reproduce() {
+        System.out.println(name + " vai se reproduzir");
+    }
+}
