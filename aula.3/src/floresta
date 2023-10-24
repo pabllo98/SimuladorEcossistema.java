@@ -1,0 +1,16 @@
+class Forest {
+    private List<Animal> animals;
+    private List<Plant> plants;
+
+    public Forest() {
+        animals = new ArrayList<>();
+        plants = new ArrayList<>();
+    }
+
+    public void addAnimal(Animal animal) {
+        animals.add(animal);
+    }
+
+    public void addPlant(Plant plant) {
+        plants.add(plant);
+    }
