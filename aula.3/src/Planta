@@ -1,0 +1,13 @@
+class Plant {
+    protected String type;
+    protected int age;
+
+    public Plant(String type, int age) {
+        this.type = type;
+        this.age = age;
+    }
+
+    public void grow() {
+        System.out.println("A " + type + " A planta está crescendo");
+    }
+}
