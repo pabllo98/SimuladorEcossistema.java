@@ -15,19 +15,3 @@ class Forest {
         plants.add(plant);
     }
 
-class forest {
-    protected List<Animal> animals;
-    protected List<Plant> plants;
-
-    public forest() {
-        animals = new ArrayList<>();
-        plants = new ArrayList<>();
-    }
-
-    public void addAnimal(Animal animal) {
-        animals.add(animal);
-    }
-
-    public void addPlant(Plant plant) {
-        plants.add(plant);
-    }
