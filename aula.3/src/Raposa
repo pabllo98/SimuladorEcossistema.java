@@ -1,0 +1,10 @@
+class Raposa extends Animal {
+    public Raposa(String name, int age) {
+        super(name, age);
+    }
+
+    @Override
+    public void move() {
+        System.out.println("A Raposa " + super.name + " Quer comer");
+    }
+}
