@@ -1,0 +1,10 @@
+class Lobo extends Animal {
+    public Lobo(String name, int age) {
+        super(name, age);
+    }
+
+    @Override
+    public void move() {
+        System.out.println("Lobo " + super.name + " Está com fome");
+    }
+}
